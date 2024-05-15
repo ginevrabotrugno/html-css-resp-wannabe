@@ -140,7 +140,7 @@ img {
  
 
  /* view mobile */
- 
+
 @media screen and (max-width: 480px) {
     
     .row {
@@ -149,19 +149,29 @@ img {
 
     .lessons .col {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 3rem;
+    }
+
+    .steps {
+        margin: 3rem 0 0;
     }
 
     .steps .col {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 3rem;
     }
+
+    .why-us {
+        background-color: #222222;
+        margin: 0;
+        padding: 6rem 0; 
+    }
+
 
     .why-us .col {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 3rem;
     }
-
 
 }
 
